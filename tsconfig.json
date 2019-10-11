@@ -14,6 +14,5 @@
         "sourceMap": true,
         "removeComments": true,
         "noUnusedLocals": true
-    },
-    "exclude": ["build", "dist", "node_modules"]
+    }
 }
