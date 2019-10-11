@@ -39,8 +39,5 @@
             "pre-commit": "pretty-quick --staged",
             "pre-push": "yarn lint"
         }
-    },
-    "dependencies": {
-        "@material-ui/core": "^4.5.0"
     }
 }
