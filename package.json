@@ -7,24 +7,25 @@
             "packages/*"
         ]
     },
-    "devDependencies": {
-        "@types/jest": "24.0.18",
-        "@types/node": "12.7.12",
-        "@types/react": "16.9.5",
-        "@types/react-dom": "16.9.1",
-        "eslint-config-prettier": "^6.4.0",
-        "eslint-plugin-prettier": "^3.1.1",
-        "husky": "^3.0.8",
-        "lerna": "^3.17.0",
-        "prettier": "^1.18.2",
-        "pretty-quick": "^1.11.1",
-        "typescript": "3.6.4"
-    },
     "scripts": {
         "start": "lerna run start --parallel --scope common --scope react-app",
         "build": "lerna run build --parallel --scope common --scope react-app",
         "build:common": "lerna run build --scope common",
         "lint": "eslint --fix \"**/src/**/*.{js,ts,jsx,tsx}\""
+    },
+    "devDependencies": {
+        "@types/jest": "^24.0.23",
+        "@types/node": "^12.12.7",
+        "@types/react": "^16.9.11",
+        "@types/react-dom": "^16.9.4",
+        "eslint-config-prettier": "^6.5.0",
+        "eslint-plugin-prettier": "^3.1.1",
+        "husky": "^3.0.9",
+        "lerna": "^3.18.4",
+        "prettier": "^1.19.1",
+        "pretty-quick": "^2.0.1",
+        "react": "^16.11.0",
+        "typescript": "^3.7.2"
     },
     "eslintConfig": {
         "extends": [
