@@ -24,7 +24,6 @@
         "lerna": "^3.18.4",
         "prettier": "^1.19.1",
         "pretty-quick": "^2.0.1",
-        "react": "^16.11.0",
         "typescript": "^3.7.2"
     },
     "eslintConfig": {
