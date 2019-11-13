@@ -5,7 +5,7 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "start": "tsc && tsc --watch",
+        "start": "yarn build && tsc --watch",
         "build": "rm tsconfig.tsbuildinfo && tsc",
         "prepublish": "yarn build"
     }
