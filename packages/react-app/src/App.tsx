@@ -1,8 +1,8 @@
 import React, { FC } from "react"
-import { makeStyles } from "@material-ui/core"
+import { createUseStyles } from "react-jss"
 import { helloLerna } from "common"
 
-const useStyles = makeStyles({
+const useStyles = createUseStyles({
     app: {
         textAlign: "center",
         backgroundColor: "#282c34",
