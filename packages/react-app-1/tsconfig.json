@@ -1,0 +1,15 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "isolatedModules": true,
+        "allowJs": true,
+        "noEmit": true
+    },
+    "references": [
+        {
+            "path": "../common"
+        }
+    ],
+    "include": ["src"],
+    "exclude": ["build"]
+}

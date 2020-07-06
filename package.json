@@ -8,8 +8,10 @@
         ]
     },
     "scripts": {
-        "start": "lerna run start --parallel --scope common --scope react-app",
-        "build": "lerna run build --parallel --scope common --scope react-app",
+        "start:react-app-0": "lerna run start --parallel --scope common --scope react-app-0",
+        "build:react-app-0": "lerna run build --parallel --scope common --scope react-app-0",
+        "start:react-app-1": "lerna run start --parallel --scope common --scope react-app-1",
+        "build:react-app-1": "lerna run build --parallel --scope common --scope react-app-1",
         "build:common": "lerna run build --scope common",
         "lint": "eslint --fix \"**/src/**/*.{js,ts,jsx,tsx}\""
     },
@@ -24,6 +26,7 @@
         "lerna": "^3.18.4",
         "prettier": "^1.19.1",
         "pretty-quick": "^2.0.1",
+        "rimraf": "^3.0.2",
         "typescript": "^3.7.2"
     },
     "eslintConfig": {

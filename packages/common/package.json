@@ -6,7 +6,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "start": "yarn build && tsc --watch",
-        "build": "rm tsconfig.tsbuildinfo && tsc",
+        "build": "rimraf tsconfig.tsbuildinfo && tsc",
         "prepublish": "yarn build"
     }
 }
