@@ -2,7 +2,16 @@
 
 ## Run Steps
 
-```
+```shell script
 yarn build:common
-yarn start
+```
+
+```shell script
+yarn start:react-app-0
+```
+
+OR
+
+```shell script
+yarn start:react-app-1
 ```
