@@ -5,7 +5,7 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
-        "start": "yarn build && tsc --watch",
+        "start": "yarn build && tsc --watch --preserveWatchOutput",
         "build": "rimraf tsconfig.tsbuildinfo && tsc",
         "prepublish": "yarn build"
     }
